@@ -35,9 +35,7 @@ In `Access control lists` tab modify `Dam` workspace by allowing `Read-only` acc
 
 ### Next.js SSR
 
-You will need to create a root page with the `Next.js SSR: Basic` template and name it `nextjs-ssr-minimal`.
-
-Go to `/spa/nextjs-ssr-minimal` on the terminal and run `npm install`, and then `npm run build && npm start`.
+You will need to create a root page with the `Next.js SSR: Basic` template and name it `vercel-demo`.
 
 It will start start the Next.js server.
 
@@ -55,7 +53,7 @@ All Magnolia specific configurations can be find in `[[...pathname]].js` file.
 
 Open the `Pages` app in Magnolia and **_click Add Page_** add either
 
--   A `Next.js SSR: Basic` **_template_** and name it `nextjs-ssr-minimal`
+-   A `Next.js SSR: Basic` **_template_** and name it `vercel-demo`
 
 > The page name is important as the SPA's are hardcoded to treat those names as the base of the app.
 

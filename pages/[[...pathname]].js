@@ -39,13 +39,6 @@ export default function Pathname(props) {
 				magnoliaContext.isMagnoliaEdit ? 'disable-a-pointer-events' : ''
 			}
 		>
-			{pagenav && (
-				<Navigation
-					content={pagenav}
-					nodeName={nodeName}
-					currentLanguage={magnoliaContext.currentLanguage}
-				/>
-			)}
 			{page && (
 				<EditablePage
 					content={page}
